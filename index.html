@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Capstone Title Generator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+   <link rel="stylesheet" href="style/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="vanta-canvas">
+    <nav class="navbar navbar-expand-lg navbar-light bg-">
+      </nav>
+  <div class="title">
+    <div>
+      <h1>USPF CAPSTONE TITLE GENERATOR</h1>
+      <p>The USPF (University of Southern Philippines Foundation) Capstone Title Generator is an innovative tool <br>
+        designed to assist students in generating unique and compelling capstone project titles. Developed specifi<br>
+        cally for students at the University of Southern Philippines Foundation, this generator aims to streamline<br>
+         the process of selecting a suitable title for their culminating research or project.</p>
+        </div>
+        <div class="image">
+            <img src="pictures/USPF_Logo_2020-2021.png">
+            <img src="pictures/ccs.png">
+        </div>
+  </div>
+  <div class="generate">
+    <div class="hey">
+        <i class="fa fa-flask"></i>
+        <h2>Title Generator for</h2>
+      <p>Information Technology and Computer Science</p>
+    </div>
+    <div class="hey">
+      <a href="information.html">
+      <i class="fa fa-flask"></i>
+      <h2>Title Generator for</h2>
+      </a>
+    <p>Information Technology and Computer Science</p>
+  </div>
+  <div class="hey">
+    <i class="fa fa-flask"></i>
+    <h2>Title Generator for</h2>
+  <p>Information Technology and Computer Science</p>
+</div>
+  </div>
+  <div>
+    <div class="generatetitle">
+    <div id="titleContainer">
+        <button onclick="generateTitle()" class="">Generate Title  <i class="fa-solid fa-recycle"></i></button>
+        <button onclick="copyTitle()" class="">Copy Paste  <i class="fa fa-copy"></i></button>
+        <h1 id="generatedTitle"><span></span></h1>
+      </div>
+  </div>
+  </div>
+  <footer>
+    <div class="last">
+      <div class="down">
+         <h3>University of Southern Philippines Foundation</h3>
+        <a href="https://www.facebook.com/groups/533594460103719"><i class="fa-brands fa-facebook"></i></a>
+         <a href="https://www.tiktok.com/@uspfccs?_t=8cxYvtXzOTJ&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+         <i class="fa-brands fa-square-instagram"></i>
+         
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.153.0/three.cjs"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+  <script>
+    VANTA.CLOUDS({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00
+    })
+    </script>
+   <script src="javascript/index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

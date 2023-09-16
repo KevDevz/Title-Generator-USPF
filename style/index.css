@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.title{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px 40px;
+    text-align: initial;
+}
+.title h1{
+    font-weight: 900;
+
+}
+.generate{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.logo{
+    width: 100%;
+    max-width: 60px;
+}
+#vanta-canvas{
+    width: 100%;
+    height: 150vh;
+    
+}
+.image img{
+    width: 100%;
+    max-width: 100px;
+}
+.hey{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+.fa-flask{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.fa-flask-vial{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+@media(max-width: 766px){
+    .title{
+        font-size: 12px;
+    }
+}
+@media(max-width: 641px) {
+    #vanta-canvas{
+        width: 100%;
+        height: 180vh;
+    }
+}
+.generatetitle{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 40px;
+}
+#generatedTitle{
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+#titleContainer button{
+    background: yellow;
+    padding: 10px;
+    border-top-right-radius: 10px;
+}
+.last{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 30px;
+}
+.fa-tiktok{
+    color: rgb(133, 27, 27);
+    font-size: 30px;
+}
+.fa-square-instagram{
+    color: red;
+    font-size: 30px;
+}
+.fa-facebook:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.fa-tiktok:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.fa-square-instagram:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
